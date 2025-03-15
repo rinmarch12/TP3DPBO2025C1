@@ -56,4 +56,10 @@ Alur Program
 5. Optimasi Memory (Jika Ada)
 - Jika Komputer memiliki objek Memory, metode optimize() dijalankan untuk meningkatkan kecepatan transfer.
 
+---
+Dokumentasi
+---
+![Dokumentasi](https://github.com/user-attachments/assets/50cac919-9c0a-4361-8081-6ce76e940c38)
+
+
 
