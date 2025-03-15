@@ -5,11 +5,37 @@ Saya Ririn Marchelina dengan NIM 2303662 mengerjakan Tugas Praktikum 3 dalam mat
 ---
 Diagram
 ---
-![tp3 drawio](https://github.com/user-attachments/assets/d628fb88-2a3a-48eb-822e-2f3749a52a57)
+![tp3 drawio](https://github.com/user-attachments/assets/bc65d57f-46dd-4cab-a2e9-3bc1b244c3f7)
+
 
 ---
 Desain Program
 ---
+Program terdiri dari 5 kelas utama:
+
+1. Komponen (Superclass)
+- Atribut: merk, nama.
+- Metode: Setter, Getter, display().
+
+2. Cpu (Child dari Komponen)
+- Atribut: jumlahCore, kecepatanGHz.
+- Metode: Setter, Getter, display().
+
+3. Ram (Child dari Komponen)
+- Atribut: kapasitasGB, ddr.
+- Metode: Setter, Getter, display().
+Harddrive (Child dari Komponen)
+
+Atribut: kapasitasGB, tipeDrive.
+Metode: Setter, Getter, display().
+Memory (Child dari Ram dan Harddrive - Multiple Inheritance)
+
+Atribut: jenisMemory, kecepatanTransfer.
+Metode: Setter, Getter, optimize(), display().
+Komputer (Komposisi dari CPU, RAM, Harddrive, dan Memory)
+
+Atribut: cpu, vector<Ram>, harddrive, memory.
+Metode: Setter, Getter, displayInfo(), getTotalRamCapacity().
 
 ---
 Alur Program
