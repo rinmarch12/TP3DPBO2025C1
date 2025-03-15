@@ -40,4 +40,20 @@ Program terdiri dari 5 kelas utama:
 ---
 Alur Program
 ---
+1. Inisialisasi Data
+- Membuat objek CPU, RAM, Harddrive, dan Memory.
+- Membuat objek Komputer dengan komponen tersebut.
+
+2. Menampilkan Data Awal
+- Menampilkan informasi spesifikasi komputer.
+
+3. Input Pengguna untuk Menambahkan RAM
+- Pengguna memasukkan detail RAM baru, lalu RAM ditambahkan ke vector<Ram>.
+
+4. Menampilkan Data Setelah Penambahan
+- Program menghitung ulang kapasitas total RAM dan menampilkan spesifikasi terbaru.
+
+5. Optimasi Memory (Jika Ada)
+- Jika Komputer memiliki objek Memory, metode optimize() dijalankan untuk meningkatkan kecepatan transfer.
+
 
