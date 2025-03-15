@@ -24,18 +24,18 @@ Program terdiri dari 5 kelas utama:
 3. Ram (Child dari Komponen)
 - Atribut: kapasitasGB, ddr.
 - Metode: Setter, Getter, display().
-Harddrive (Child dari Komponen)
 
-Atribut: kapasitasGB, tipeDrive.
-Metode: Setter, Getter, display().
-Memory (Child dari Ram dan Harddrive - Multiple Inheritance)
+4. Harddrive (Child dari Komponen)
+- Atribut: kapasitasGB, tipeDrive.
+- Metode: Setter, Getter, display().
 
-Atribut: jenisMemory, kecepatanTransfer.
-Metode: Setter, Getter, optimize(), display().
-Komputer (Komposisi dari CPU, RAM, Harddrive, dan Memory)
+5. Memory (Child dari Ram dan Harddrive - Multiple Inheritance)
+- Atribut: jenisMemory, kecepatanTransfer.
+- Metode: Setter, Getter, optimize(), display().
 
-Atribut: cpu, vector<Ram>, harddrive, memory.
-Metode: Setter, Getter, displayInfo(), getTotalRamCapacity().
+6. Komputer (Komposisi dari CPU, RAM, Harddrive, dan Memory)
+- Atribut: cpu, vector<Ram>, harddrive, memory.
+- Metode: Setter, Getter, displayInfo(), getTotalRamCapacity().
 
 ---
 Alur Program
